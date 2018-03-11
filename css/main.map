@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "_scss/main.css",
+	"sources": [
+		"_scss/main.scss",
+		"_scss/_colors.scss",
+		"_scss/_fonts.scss",
+		"_scss/_urls.scss",
+		"_scss/_mixins.scss"
+	],
+	"sourcesContent": [
+		"@import '_colors.scss';\n@import '_fonts.scss';\n@import '_urls.scss';\n@import '_mixins.scss';\n@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Raleway');\n\n// Your CSS/SCSS below this line\n\n$debug: false; // Debug mode boolean\n\n* {\n  @if ($debug) {\n    border: 1px solid red;\n  }\n}\n\n.content-box {\n  background-color: $white;\n}\n.img-responsive {\n  width: 100%;\n  margin-bottom: 20px;\n\n}\n\np {\n  color: $teal;\n}\n\n.date {\n  margin-bottom: 20px;\n}\n\nh1, h3 {\n  text-align: center;\n  color: $green;\n}\n\n\nbody {\n\tfont-family: $font_0, $font_1, $font_2;\n  text-align: center;\n  background-color: $green;\n}\n\n@for $i from 1 through 6 { // Loop that sets the font face for all headings\n  h#{7 - $i} {\n    font-family: $font_3, $font_4, $font_5;\n  }\n}\n\na {\n  color: $green;\n}\n\na:hover {\n  color: $light-green;\n}\n\n.card-title {\n  text-align: center;\n}\n\n.card-text {\n  color: $blue;\n}\n\n#carouselExampleIndicators {\n  margin-bottom: 20px;\n}\n",
+		"// Color Variables\n\n$teal: #103440;\n$green: #5C7360;\n$white: rgba(237, 241, 241, .5);\n$light-green: #99A579;\n$blue: #516D8B;\n",
+		"// Font Variables\n\n$font_0: 'Raleway';\n$font_1: Verdana;\n$font_2: sans-serif;\n$font_3: 'Cinzel Decorative';\n$font_4: Georgia;\n$font_5: serif;\n",
+		"// URL Variables\n\n$url_1: url('../images/PSDB.jpg');\n$url_2: url('../images/Palatine.jpg');\n$url_3: url('../images/JWNK.jpg');\n$url_4: url('../images/ThePlibmen.jpg');\n",
+		""
+	],
+	"mappings": "AAIA,OAAO,CAAC,wEAAI;;AAYZ,AAAA,YAAY,CAAC;EACX,gBAAgB,ECbV,wBAAI,GDcX;;;AACD,AAAA,eAAe,CAAC;EACd,KAAK,EAAE,IAAK;EACZ,aAAa,EAAE,IAAK,GAErB;;;AAED,AAAA,CAAC,CAAC;EACA,KAAK,ECxBA,OAAO,GDyBb;;;AAED,AAAA,KAAK,CAAC;EACJ,aAAa,EAAE,IAAK,GACrB;;;AAED,AAAA,EAAE,EAAE,AAAA,EAAE,CAAC;EACL,UAAU,EAAE,MAAO;EACnB,KAAK,EChCC,OAAO,GDiCd;;;AAGD,AAAA,IAAI,CAAC;EACJ,WAAW,EEtCH,SAAS,EACT,OAAO,EACP,UAAU;EFqCjB,UAAU,EAAE,MAAO;EACnB,gBAAgB,ECvCV,OAAO,GDwCd;;;AAGC,AAAA,EAAE,CAAF;EACE,WAAW,EE1CN,mBAAmB,EACnB,OAAO,EACP,KAAK,GFyCX;;;AAFD,AAAA,EAAE,CAAF;EACE,WAAW,EE1CN,mBAAmB,EACnB,OAAO,EACP,KAAK,GFyCX;;;AAFD,AAAA,EAAE,CAAF;EACE,WAAW,EE1CN,mBAAmB,EACnB,OAAO,EACP,KAAK,GFyCX;;;AAFD,AAAA,EAAE,CAAF;EACE,WAAW,EE1CN,mBAAmB,EACnB,OAAO,EACP,KAAK,GFyCX;;;AAFD,AAAA,EAAE,CAAF;EACE,WAAW,EE1CN,mBAAmB,EACnB,OAAO,EACP,KAAK,GFyCX;;;AAFD,AAAA,EAAE,CAAF;EACE,WAAW,EE1CN,mBAAmB,EACnB,OAAO,EACP,KAAK,GFyCX;;;AAGH,AAAA,CAAC,CAAC;EACA,KAAK,ECjDC,OAAO,GDkDd;;;AAED,AAAC,CAAA,AAAA,MAAM,CAAC;EACN,KAAK,ECnDO,OAAO,GDoDpB;;;AAED,AAAA,WAAW,CAAC;EACV,UAAU,EAAE,MAAO,GACpB;;;AAED,AAAA,UAAU,CAAC;EACT,KAAK,EC1DA,OAAO,GD2Db;;;AAED,AAAA,0BAA0B,CAAC;EACzB,aAAa,EAAE,IAAK,GACrB",
+	"names": []
+}

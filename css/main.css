@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel+Decorative|Raleway");
+/* line 17, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+.content-box {
+  background-color: rgba(237, 241, 241, 0.5); }
+
+/* line 20, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+.img-responsive {
+  width: 100%;
+  margin-bottom: 20px; }
+
+/* line 26, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+p {
+  color: #103440; }
+
+/* line 30, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+.date {
+  margin-bottom: 20px; }
+
+/* line 34, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+h1, h3 {
+  text-align: center;
+  color: #5C7360; }
+
+/* line 40, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+body {
+  font-family: "Raleway", Verdana, sans-serif;
+  text-align: center;
+  background-color: #5C7360; }
+
+/* line 47, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+h6 {
+  font-family: "Cinzel Decorative", Georgia, serif; }
+
+/* line 47, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+h5 {
+  font-family: "Cinzel Decorative", Georgia, serif; }
+
+/* line 47, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+h4 {
+  font-family: "Cinzel Decorative", Georgia, serif; }
+
+/* line 47, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+h3 {
+  font-family: "Cinzel Decorative", Georgia, serif; }
+
+/* line 47, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+h2 {
+  font-family: "Cinzel Decorative", Georgia, serif; }
+
+/* line 47, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+h1 {
+  font-family: "Cinzel Decorative", Georgia, serif; }
+
+/* line 52, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+a {
+  color: #5C7360; }
+
+/* line 56, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+a:hover {
+  color: #99A579; }
+
+/* line 60, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+.card-title {
+  text-align: center; }
+
+/* line 64, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+.card-text {
+  color: #516D8B; }
+
+/* line 68, /Volumes/iomega/Jefferson/Spring 2018/Tech/3-6-18/idd-510-wk-08-files/web-starter/css/_scss/main.scss */
+#carouselExampleIndicators {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=../main.map */
